@@ -19,7 +19,6 @@ const Animals = {
 }; 
 
 
-
 function loadJSON() {
     fetch("animals.json")
     .then( response => response.json() )
